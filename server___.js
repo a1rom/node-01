@@ -8,7 +8,7 @@ const data = JSON.stringify([
 ])
 
 const server = createServer((req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*')
+  // res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader('Content-Type', 'application/json')
   res.end(data)
 })
